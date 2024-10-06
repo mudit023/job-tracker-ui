@@ -1,6 +1,7 @@
 :root {
     /* General */
-  --background-blue: #0937B2;
+  --background-primary-dark: #283838;
+  --background-primary-light: #2D5545;
   --background-grey: #F5F5F5;
   --background-disabled: #C8CDD3;
   --background-hover:#F5F7FC;
@@ -12,6 +13,7 @@
   --disabled-border: #6A737D;
   --primary-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12), 0px 12px 24px 0px rgba(0, 0, 0, 0.12);
   --blue-shadow: 0 8px 24px #80b1fa3d;
+  --parent-primary-radius: 0.8rem;
   /* Profile bubbles */
   --primary-bubble-background: #BBE6FF;
   --primary-bubble-text: #0B547D;
