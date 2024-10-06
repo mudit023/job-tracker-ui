@@ -10,11 +10,6 @@ const LandingScreen  = () => {
             <i className="fi fi-ss-marker logo-icon"></i></span> <br/> Tracker</span>
           <span></span>
         </div>
-        <nav>
-            <button className='sign-in-button'>
-              Sign In
-            </button>
-        </nav>
       </header>
     </>
   )
