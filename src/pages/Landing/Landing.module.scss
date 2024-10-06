@@ -47,7 +47,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 6.4rem;
+    margin-top: 12.4rem;
 }
 
 .content-details {
@@ -69,7 +69,7 @@
         }
 
         .content-title {
-            font-size: 12.4rem;
+            font-size: 18.4rem;
             font-family: 'Antonio', sans-serif;
             font-weight: 700;
             margin: 0;
@@ -89,6 +89,9 @@
     }
     .cta-btn-container {
         .cta-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
             font-size: 1.8rem;
             font-family: 'Antonio', sans-serif;
             font-weight: 700;
@@ -98,6 +101,11 @@
             border: 1px solid transparent;
             border-radius: 0.4rem;
             transition: all 0.4s ease-in-out;
+            span{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
             &:hover {
                 background-color: transparent;
                 border: 1px solid #ffe779;
@@ -118,12 +126,12 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-40%, -30%);
-        width: 824px;
+        transform: translate(-23%, -32%);
+        width: calc(100vw - 10rem);
         max-width: 100%;
         height: auto;
         display: block;
-        filter: drop-shadow(40px 50px 25px #112801);
+        filter: drop-shadow(-40px 50px 25px #112801);
         z-index: 9;
     }
 }
