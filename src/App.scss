@@ -1,0 +1,11 @@
+@import './styles/variable.scss';
+
+body {
+    background-color: #ebfafe;
+    min-height: 100vh;
+    min-width: 100vw;
+}   
+
+button {
+    cursor: pointer;
+}

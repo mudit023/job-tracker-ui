@@ -1,0 +1,35 @@
+@import "../../styles/variable.scss";
+
+header {
+  min-width: 100vh;
+  min-height: 6.5rem;
+  @include flex(space-between, center);
+  padding: 1rem 5rem;
+
+  .logo {
+    color: #083742;
+    @include font($font-poppins, 3.5rem, $color-text-primary, bold);
+    .logo-icon {
+      font-size: 3rem;
+      padding-left: 0.35rem;
+    }
+  }
+  nav {
+    @include flex(space-between, center);
+    gap: 2rem;
+    .sign-in-button {
+      @include font($font-poppins, 1.5rem, $color-text-primary);
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      background-color: #083742;
+      color: #ebfafe;
+      transition: all 0.3s;
+      border: 1px solid #083742;
+      &:hover {
+        background-color: #ebfafe;
+        color: #083742;
+        border: 1px solid #083742;
+      }
+    }
+  }
+}
